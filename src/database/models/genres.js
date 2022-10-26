@@ -30,7 +30,7 @@ module.exports = (sequelize, dataTypes) => {
   let config = {
     timestamps: false,
     tableNane: 'genres',
-    // createdAt: create_at
+
   };
 
   const Genre = sequelize.define(alias, cols, config);

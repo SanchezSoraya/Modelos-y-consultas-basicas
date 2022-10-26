@@ -36,7 +36,7 @@ module.exports = (sequelize, dataTypes) => {
   let config = {
     timestamps: false,
     tableNane: 'movies',
-    // createdAt: create_at
+
   };
 
   const Movie = sequelize.define(alias, cols, config);
